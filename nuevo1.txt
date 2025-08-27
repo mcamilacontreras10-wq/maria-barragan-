@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+</style>
+    <title>Mi CV - Landing Page</title>
+    <link rel="stylesheet" href="./Style.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#inicio" class="nav-link">Inicio</a></li>
+                <li class="nav-item"><a href="#linktree" class="nav-link">Mis Redes</a></li>
+                <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="section profile-section">
+        <div class="profile-container">
+            <img src="./pato.jpg" alt="Tu Foto de Perfil" class="profile-photo">
+            <h1 class="profile-name">maria camila barragan sanchez</h1>
+            <p class="profile-summary">
+                Estudiante de grado once, con 18 años, apasionada por el área de la salud y con la meta de convertirme en pediatra. Me inspira el cuidado y la protección de la infancia, con el firme deseo de contribuir al bienestar de los niños para que crezcan sanos y felices. Soy una persona con muchos sueños y metas a largo plazo, lo que me impulsa a superarme cada día. Además, disfruto de la lectura y la música como espacios de motivación Me caracterizo por ser alguien cercana y leal, siempre presente para apoyar y acompañar a las personas que amo.
+            </p>
+            <div class="contact-info">
+                <p><strong>Correo:</strong><a href="mariibarragan7810@gmail.com
+">mariibarragan7810@gmail.com
+</a></p>
+                <p><strong>Teléfono:</strong><a href="http://wa.me/+573104810024" target="_blank" rel="noopener noreferrer">+57 3104810024</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Estudios e Inspiraciones a carreras</h2>
+        <div class="section-content">
+            <h3>Estudios Realizados</h3>
+            <ul class="list">
+                <li>
+                    <h4>INSTITUCIÓN EDUCATIVA CASD JOSE PRUDENCIO PADILLA</h4>
+                    <p>Promotor integral de la salud | Año de Finalización: 2025</p>
+                    <P>Área institucional orientada a la promoción de la salud y al cuidado integral, ofreciendo servicios a la comunidad educativa y a la sociedad en general.</P>
+                </li>
+                <li>
+                    <h4>INSTITUCION EDUCATIVA FE Y ALEGRIA | Primaria</h4>
+                    <p>Primaria de 5to| Año de Finalización: 2018</p>
+                    <p>Descripción: Realicé toda mi primaria en esta institución, donde adquirí bases académicas y valores que han sido fundamentales en mi formación personal.</p>
+                </li>
+            </ul>
+
+            <h3>Inspiraciones de carreras</h3>
+            <ul class="list">
+                <li>
+                    <h4>MEDICINA ESPECIALIZADA EN PEDIATRIA</h4>
+                    <p>duracion 6 a 9 años <br>Descripción: Mi mayor meta es convertirme en pediatra, ya que me inspira el cuidado y la protección de la infancia. Deseo dedicarme a la salud de los niños, acompañando su crecimiento y bienestar con compromiso y vocación</p>
+                </li>
+                <li>
+                    <h4>neonatología</h4>
+                    <p>duracion 6 a 8 años <br>Descripción: Como segunda opción, me interesa la neonatología, ya que me motiva el cuidado especializado de los recién nacidos y su bienestar en los primeros momentos de vida.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section skills-section">
+        <h2 class="section-title">Habilidades</h2>
+        <div class="skills-container">
+            <div class="skill-group">
+                <h3>Habilidades</h3>
+                <ul class="list-inline">
+                    <li>reponsabilidad</li>
+                    <li>empatia</li>
+                    <li>compromiso</li>
+                    <li>sensibilidad</li>
+                    <li>Escucha activa</li>
+                </ul>
+            </div>
+            <div class="skill-group">
+                <h3>debilidades</h3>
+                <ul class="list-inline">
+                    <li>Perfeccionismo</li>
+                    <li>Sensibilidad emocional</li>
+                    <li>Inseguridad</li>
+                    <li>Nerviosismo</li>
+                    <li>Impulsividad</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="linktree" class="section linktree-section">
+        <h2 class="section-title">Mis Redes y Proyectos</h2>
+        <div class="linktree-container">
+            <img src="C:\Users\HP\Desktop\mi Landing Page\fotomaria.jpeg" alt="Tu Foto de Perfil" class="profile-photo">
+            <a href="https://www.instagram.com/_marii_7810_?igsh=MXg4emg4NWdvM216Zg%3D%3D&utm_source=qr" target="_blank" class="linktree-link"><strong>instagram</strong></a>
+            <a href="https://www.tiktok.com/@marii_7810?_t=ZS-8zDCwqfOmZA&_r=1" target="_blank" class="linktree-link"><strong>Tik tok</strong></a>
+            <a href="https://www.facebook.com/share/1B9bDyD3em/?mibextid=wwXIfr" target="_blank" class="linktree-link"><strong>facebook</strong></a>
+            </div>
+    </section>
+
+    <section id="contacto" class="section contact-section">
+        <h2 class="section-title">Contáctame</h2>
+        <form action="https://formspree.io/f/tu-email-de-formspree" method="POST" class="contact-form">
+            <input type="text" name="nombre" placeholder="Tu Nombre" required>
+            <input type="email" name="_replyto" placeholder="Tu Correo Electrónico" required>
+            <textarea name="mensaje" placeholder="Tu Mensaje" rows="5" required></textarea>
+            <button type="submit" class="submit-button">Enviar Mensaje</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 maria barragan <br> besitos </p>
+        <p>Desde el ❤️ del CASD para todo el mundo</p>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
